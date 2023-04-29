@@ -15,16 +15,20 @@ public class FunctionalProgramming02 {
         //Combine them into one result => One value
         // initial value 0  FunctionalProgramming02 :: sum
 
-       /* return numbers.stream()
-                .reduce(0,FunctionalProgramming02::sum); */
+        /*return numbers.stream()
+                .reduce(0,FunctionalProgramming02::sum);
 
-        // Or
+         Or
         return numbers.stream()
                 .reduce(0,(x,y)->x+y);
+         Or */
+
+        return numbers.stream()
+                .reduce(0,Integer::sum);
     }
 
-    private static Integer sum(int a, int b) {
-        return a+b;
+    private static Integer sum(int aggregate, int nextNumber) {
+        return aggregate+nextNumber;
     }
 
 
