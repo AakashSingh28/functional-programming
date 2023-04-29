@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3cde3b10-7763-4ede-b62e-f734976772de" name="Changes" comment="Initial commit for functional programming&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/programming/StructuredProgramming01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/programming/FunctionalProgramming01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/programming/FunctionalProgramming01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/programming/FunctionalProgramming02.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +48,7 @@
       <recent name="com.programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionalProgramming02">
+  <component name="RunManager" selected="Application.FunctionalProgramming01">
     <configuration name="FunctionalProgramming01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.programming.FunctionalProgramming01" />
       <module name="functional-programming.main" />
@@ -59,8 +62,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalProgramming02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.programming.FunctionalProgramming02" />
+    <configuration name="com.programming.StructuredProgramming01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programming.StructuredProgramming01" />
       <module name="functional-programming.main" />
       <extension name="coverage">
         <pattern>
@@ -74,8 +77,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.FunctionalProgramming02" />
         <item itemvalue="Application.FunctionalProgramming01" />
+        <item itemvalue="Application.com.programming.StructuredProgramming01" />
       </list>
     </recent_temporary>
   </component>
@@ -123,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682754656936</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Initial commit for functional programming&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;">
+      <created>1682755087532</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1682755087532</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
