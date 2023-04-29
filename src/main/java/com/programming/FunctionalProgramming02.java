@@ -15,8 +15,12 @@ public class FunctionalProgramming02 {
         //Combine them into one result => One value
         // initial value 0  FunctionalProgramming02 :: sum
 
+       /* return numbers.stream()
+                .reduce(0,FunctionalProgramming02::sum); */
+
+        // Or
         return numbers.stream()
-                .reduce(0,FunctionalProgramming02::sum);
+                .reduce(0,(x,y)->x+y);
     }
 
     private static Integer sum(int a, int b) {
