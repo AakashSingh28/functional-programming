@@ -6,8 +6,17 @@ public class FunctionalProgramming01 {
     public static void main(String[] args) {
 
         List<Integer> numbers = List.of(1, 2, 3, 455, 66, 77, 88, 9, 0);
-        printAllNumbersInFunctional(numbers);
-        printEvenNumbersInFunctional(numbers);
+       // printAllNumbersInFunctional(numbers);
+       // printEvenNumbersInFunctional(numbers);
+        printSquareOfEvenNumbersInFunctional(numbers);
+    }
+
+    private static void printSquareOfEvenNumbersInFunctional(List<Integer> numbers) {
+        numbers.stream()
+                .filter(integer -> integer%2==0)
+                //mapping -x -> X*X
+                .map(number -> number*number)
+                .forEach(System.out::println);
     }
 
     private static void print(int number){

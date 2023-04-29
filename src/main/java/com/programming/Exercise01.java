@@ -6,12 +6,27 @@ public class Exercise01 {
 
     public static void main(String[] args) {
         List<Integer> numbers = List.of(1, 2, 3, 54, 62, 11, 44, 90);
-        printOldNumbers(numbers);
+        printOddNumbers(numbers);
+        printQubesOfOddNumbers(numbers);
 
         List<String> courses=List.of("Spring","Spring Boot","API","AWS","GCP","Docker");
         printCourses(courses);
         printCoursesContainingSpring(courses);
         printCoursesWith4Letters(courses);
+        printNumberOfCharactersInCourse(courses);
+    }
+
+    private static void printNumberOfCharactersInCourse(List<String> courses) {
+        courses.stream()
+                .map(course -> course+" "+course.length())
+                .forEach(System.out::println);
+    }
+
+    private static void printQubesOfOddNumbers(List<Integer> numbers) {
+        numbers.stream()
+                .filter(number -> number%2!=0)
+                .map(number -> number*number*number)
+                .forEach(System.out :: println);
     }
 
     private static void printCoursesWith4Letters(List<String> courses) {
@@ -44,7 +59,7 @@ public class Exercise01 {
                 .forEach(System.out::println);
     }
 
-    private static void printOldNumbers(List<Integer> numbers) {
+    private static void printOddNumbers(List<Integer> numbers) {
         numbers.stream()
                 .filter(integer -> integer%2!=0)
                 .forEach(System.out ::println);
