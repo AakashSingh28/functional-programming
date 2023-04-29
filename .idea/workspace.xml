@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cde3b10-7763-4ede-b62e-f734976772de" name="Changes" comment="Initial commit for functional programming&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/programming/StructuredProgramming01.java" afterDir="false" />
+    <list default="true" id="3cde3b10-7763-4ede-b62e-f734976772de" name="Changes" comment="Updated the FunctionalProgramming01.java with lambda uses&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/programming/Exercise01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/programming/FunctionalProgramming01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/programming/FunctionalProgramming01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/programming/FunctionalProgramming02.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +19,13 @@
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -48,7 +55,20 @@
       <recent name="com.programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.FunctionalProgramming01">
+  <component name="RunManager" selected="Application.Exercise01">
+    <configuration name="Exercise01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programming.Exercise01" />
+      <module name="functional-programming.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="FunctionalProgramming01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.programming.FunctionalProgramming01" />
       <module name="functional-programming.main" />
@@ -77,6 +97,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Exercise01" />
         <item itemvalue="Application.FunctionalProgramming01" />
         <item itemvalue="Application.com.programming.StructuredProgramming01" />
       </list>
@@ -133,7 +154,14 @@
       <option name="project" value="LOCAL" />
       <updated>1682755087532</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Updated the FunctionalProgramming01.java with lambda uses&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;">
+      <created>1682756881804</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1682756881804</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -150,6 +178,26 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit for functional programming" />
     <MESSAGE value="Initial commit for functional programming&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for functional programming&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;" />
+    <MESSAGE value="Updated the FunctionalProgramming01.java with lambda uses&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated the FunctionalProgramming01.java with lambda uses&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/programming/Exercise01.java</url>
+          <line>36</line>
+          <properties>
+            <option name="lambda-ordinal" value="-1" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/programming/Exercise01.java</url>
+          <line>37</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
