@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cde3b10-7763-4ede-b62e-f734976772de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/programming/FunctionalProgramming01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/programming/FunctionalProgramming02.java" afterDir="false" />
+    <list default="true" id="3cde3b10-7763-4ede-b62e-f734976772de" name="Changes" comment="Initial commit for functional programming&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +18,13 @@
     </projectState>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="AakashSingh28" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -95,6 +88,42 @@
       <option name="presentableId" value="Default" />
       <updated>1682752966742</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit for functional programming">
+      <created>1682754295919</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1682754295919</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Initial commit for functional programming">
+      <created>1682754338813</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1682754338813</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Initial commit for functional programming">
+      <created>1682754350393</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1682754350393</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Initial commit for functional programming">
+      <created>1682754643416</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1682754643416</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit for functional programming&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;">
+      <created>1682754656936</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1682754656936</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -107,5 +136,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit for functional programming" />
+    <MESSAGE value="Initial commit for functional programming&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit for functional programming&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;" />
   </component>
 </project>
