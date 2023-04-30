@@ -1,12 +1,22 @@
 package com.programming;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class FunctionalProgramming02 {
     public static void main(String[] args) {
 
-        List<Integer> numbers = List.of(1, 2, 3, 455, 66, 77, 88, 9, 0);
+        List<Integer> numbers = List.of(1, 2, 3, 20, 66, 77, 88, 9, 0);
         System.out.println(addListFunctional(numbers));
+
+        List<Integer> doubleNumbers=doubleList(numbers);
+        doubleNumbers.stream().forEach(System.out::println);
+    }
+
+    private static List<Integer> doubleList(List<Integer> numbers) {
+        return numbers.stream()
+                .map(number -> number*number)
+                .collect(Collectors.toList());
     }
 
     private static int addListFunctional(List<Integer> numbers) {

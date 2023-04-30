@@ -1,6 +1,7 @@
 package com.programming;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Exercise01 {
 
@@ -14,6 +15,16 @@ public class Exercise01 {
         printCoursesContainingSpring(courses);
         printCoursesWith4Letters(courses);
         printNumberOfCharactersInCourse(courses);
+
+        //Create a List with lengths of all course titles
+        List<Integer> list = createListWithCourseLengths(courses);
+        list.stream().forEach(System.out :: println);
+    }
+
+    private static List<Integer> createListWithCourseLengths(List<String> courses) {
+        return courses.stream()
+                .map(s -> s.length())
+                .collect(Collectors.toList());
     }
 
     private static void printNumberOfCharactersInCourse(List<String> courses) {
