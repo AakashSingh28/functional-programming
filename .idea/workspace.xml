@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3cde3b10-7763-4ede-b62e-f734976772de" name="Changes" comment="Updated the FunctionalProgramming01.java with lambda uses&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/programming/Exercise01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="3cde3b10-7763-4ede-b62e-f734976772de" name="Changes" comment="Added new function and Exercise&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/programming/Exercise03.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/programming/FunctionalInterfaces03.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/programming/FunctionalProgramming01.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/programming/FunctionalProgramming01.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,9 +54,9 @@
       <recent name="com.programming" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Exercise01">
-    <configuration name="Exercise01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.programming.Exercise01" />
+  <component name="RunManager" selected="Application.Exercise03">
+    <configuration name="Exercise02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programming.Exercise02" />
       <module name="functional-programming.main" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +68,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FunctionalProgramming01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.programming.FunctionalProgramming01" />
+    <configuration name="Exercise03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programming.Exercise03" />
       <module name="functional-programming.main" />
       <extension name="coverage">
         <pattern>
@@ -82,8 +81,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.programming.StructuredProgramming01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.programming.StructuredProgramming01" />
+    <configuration name="FunctionalInterfaces03" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programming.FunctionalInterfaces03" />
+      <module name="functional-programming.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FunctionalProgramming02" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programming.FunctionalProgramming02" />
+      <module name="functional-programming.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.programming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.programming.ComparatorFunctional" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.programming.ComparatorFunctional" />
       <module name="functional-programming.main" />
       <extension name="coverage">
         <pattern>
@@ -97,9 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Exercise01" />
-        <item itemvalue="Application.FunctionalProgramming01" />
-        <item itemvalue="Application.com.programming.StructuredProgramming01" />
+        <item itemvalue="Application.Exercise03" />
+        <item itemvalue="Application.FunctionalInterfaces03" />
+        <item itemvalue="Application.com.programming.ComparatorFunctional" />
+        <item itemvalue="Application.com.programming.Exercise02" />
+        <item itemvalue="Application.com.programming.FunctionalProgramming02" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +188,49 @@
       <option name="project" value="LOCAL" />
       <updated>1682756881804</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Solved Basic Exercise &#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;">
+      <created>1682759887340</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1682759887340</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Added map  Basic Exercise &#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;">
+      <created>1682765244224</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1682765244224</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Added Reduce FunctionalProgramming02&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;">
+      <created>1682766236217</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1682766236217</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Simplified Reduce FunctionalProgramming02&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;">
+      <created>1682766534111</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1682766534111</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Simplified Reduce FunctionalProgramming02&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;">
+      <created>1682766824768</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1682766824768</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Added new function and Exercise&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;">
+      <created>1682855458058</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1682855458058</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -179,14 +248,19 @@
     <MESSAGE value="Initial commit for functional programming" />
     <MESSAGE value="Initial commit for functional programming&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;" />
     <MESSAGE value="Updated the FunctionalProgramming01.java with lambda uses&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated the FunctionalProgramming01.java with lambda uses&#10;&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;" />
+    <MESSAGE value="Solved Basic Exercise &#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;" />
+    <MESSAGE value="Added map  Basic Exercise &#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;" />
+    <MESSAGE value="Added Reduce FunctionalProgramming02&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;" />
+    <MESSAGE value="Simplified Reduce FunctionalProgramming02&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;" />
+    <MESSAGE value="Added new function and Exercise&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added new function and Exercise&#10;Signed-off-by: AakashSingh28 &lt;aakash.singh281991@gmail.com&gt;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/programming/Exercise01.java</url>
-          <line>36</line>
+          <line>62</line>
           <properties>
             <option name="lambda-ordinal" value="-1" />
           </properties>
@@ -194,7 +268,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/programming/Exercise01.java</url>
-          <line>37</line>
+          <line>63</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
