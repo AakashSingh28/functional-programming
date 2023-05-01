@@ -177,5 +177,61 @@ public class CustomClass04 {
                 .filter(course -> course.getNumberOfStudent()>20000)
                 .findAny());
 
+
+        // Find total number of student which present in such courses
+
+        System.out.println("Total number of student: "+
+                courses.stream()
+                        .filter(reviewScoreGreaterThan80Predicate)
+                        .mapToInt(value -> value.getNumberOfStudent())
+                        .reduce((left, right) -> left+right)
+        );
+
+        System.out.println("Total number of student with sum method: "+
+                courses.stream()
+                        .filter(reviewScoreGreaterThan80Predicate)
+                        .mapToInt(Course::getNumberOfStudent)
+                        .sum()
+        );
+
+        // Now find average
+
+        System.out.println("Average number of student with average method: "+
+                courses.stream()
+                        .filter(reviewScoreGreaterThan80Predicate)
+                        .mapToInt(Course::getNumberOfStudent)
+                        .average()
+        );
+
+        // find number of courses
+        System.out.println("Number of courses: "+
+                courses.stream()
+                        .filter(reviewScoreGreaterThan80Predicate)
+                        .mapToInt(Course::getNumberOfStudent)
+                        .count()
+        );
+
+
+
+        // Group these courses based on categories
+        System.out.println(courses.stream()
+                .collect(Collectors.groupingBy(Course::getCategory)));
+
+        // Now create a map with key as categories and value as count
+        System.out.println(courses.stream()
+                .collect(Collectors.groupingBy(Course::getCategory,Collectors.counting()))
+                );
+
+        //Now get the course with the highest ReviewScore
+        System.out.println(courses.stream()
+                .collect(Collectors.groupingBy(Course::getCategory,
+                        Collectors.maxBy(Comparator.comparing(Course::getReviewScore))))
+        );
+
+        //Now map the name of the course
+        System.out.println(courses.stream()
+                .collect(Collectors.groupingBy(Course::getCategory, Collectors.mapping(Course::getName, Collectors.toList()))));
+        //{Cloud=[Docker, Azure, Gcp, Kubernetes], Programming=[java, python, C], Microservices=[API, Microservices], Framework=[Spring, Spring Boot, kafka]}
+
     }
 }
