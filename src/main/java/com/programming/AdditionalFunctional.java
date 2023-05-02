@@ -86,5 +86,19 @@ public class AdditionalFunctional {
                         .map(course2 -> List.of(course,course2)))
                 .filter(list -> !list.get(0).equalsIgnoreCase(list.get(1)))
                 .collect(Collectors.toList()));
+
+        System.out.println("-------------");
+        // What is peek ?
+        // peek is intermediate operation, Which will only execute when we call function like findFirst
+        // only when the terminal operation performed
+        courses.stream().peek(System.out::println)
+                .filter(course->course.length()>5)
+                .map(s -> s.toUpperCase()).peek(System.out::println).findFirst();
+
+        // Here peek will not execute
+        courses.stream().peek(System.out::println)
+                .filter(course->course.length()>5)
+                .map(s -> s.toUpperCase()).peek(System.out::println);
+
     }
 }
